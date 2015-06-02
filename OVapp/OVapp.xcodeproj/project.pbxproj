@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013BCB38DD8DDC4C7B2E3264 /* libPods-OVapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 126D2914B15C22091DCFB49A /* libPods-OVapp.a */; };
+		063E930E20600A8BE2771F6C /* libPods-OVappTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61AFD758E343635B3D0CD703 /* libPods-OVappTests.a */; };
+		EB16DAD51AE6B62C00437CB0 /* vehiclePositions.pb in Resources */ = {isa = PBXBuildFile; fileRef = EB16DAD41AE6B62C00437CB0 /* vehiclePositions.pb */; };
+		EB679ED21AE68CFE00EE6864 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB679ED11AE68CFE00EE6864 /* main.m */; };
+		EB679ED51AE68CFE00EE6864 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB679ED41AE68CFE00EE6864 /* AppDelegate.m */; };
+		EB679ED81AE68CFE00EE6864 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB679ED71AE68CFE00EE6864 /* ViewController.m */; };
+		EB679EDB1AE68CFE00EE6864 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB679ED91AE68CFE00EE6864 /* Main.storyboard */; };
+		EB679EDD1AE68CFE00EE6864 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB679EDC1AE68CFE00EE6864 /* Images.xcassets */; };
+		EB679EE01AE68CFE00EE6864 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB679EDE1AE68CFE00EE6864 /* LaunchScreen.xib */; };
+		EB679EEC1AE68CFE00EE6864 /* OVappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB679EEB1AE68CFE00EE6864 /* OVappTests.m */; };
+		EB679F2B1AE699C200EE6864 /* GtfsRealtimeOVapi.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = EB679F281AE699C200EE6864 /* GtfsRealtimeOVapi.pb.m */; };
+		EB679F2C1AE699C200EE6864 /* GtfsRealtime.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = EB679F2A1AE699C200EE6864 /* GtfsRealtime.pb.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB679EE61AE68CFE00EE6864 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB679EC41AE68CFE00EE6864 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB679ECB1AE68CFE00EE6864;
+			remoteInfo = OVapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		126D2914B15C22091DCFB49A /* libPods-OVapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OVapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		148C208D26E3DD1C7EC546BA /* Pods-OVapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OVapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OVapp/Pods-OVapp.debug.xcconfig"; sourceTree = "<group>"; };
+		33D5BC8D44694CAD4A489453 /* Pods-OVappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OVappTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OVappTests/Pods-OVappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		508C8F14C145E2BE4870DF71 /* Pods-OVapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OVapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-OVapp/Pods-OVapp.release.xcconfig"; sourceTree = "<group>"; };
+		61AFD758E343635B3D0CD703 /* libPods-OVappTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OVappTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEFE567FD24DF9B3D9817D69 /* Pods-OVappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OVappTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OVappTests/Pods-OVappTests.release.xcconfig"; sourceTree = "<group>"; };
+		EB16DAD41AE6B62C00437CB0 /* vehiclePositions.pb */ = {isa = PBXFileReference; lastKnownFileType = file; name = vehiclePositions.pb; path = ../../vehiclePositions.pb; sourceTree = "<group>"; };
+		EB679ECC1AE68CFE00EE6864 /* OVapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OVapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB679ED01AE68CFE00EE6864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB679ED11AE68CFE00EE6864 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB679ED31AE68CFE00EE6864 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB679ED41AE68CFE00EE6864 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB679ED61AE68CFE00EE6864 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB679ED71AE68CFE00EE6864 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB679EDA1AE68CFE00EE6864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB679EDC1AE68CFE00EE6864 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EB679EDF1AE68CFE00EE6864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EB679EE51AE68CFE00EE6864 /* OVappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OVappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB679EEA1AE68CFE00EE6864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB679EEB1AE68CFE00EE6864 /* OVappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OVappTests.m; sourceTree = "<group>"; };
+		EB679F271AE699C200EE6864 /* GtfsRealtimeOVapi.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GtfsRealtimeOVapi.pb.h; path = ../../GtfsRealtimeOVapi.pb.h; sourceTree = "<group>"; };
+		EB679F281AE699C200EE6864 /* GtfsRealtimeOVapi.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GtfsRealtimeOVapi.pb.m; path = ../../GtfsRealtimeOVapi.pb.m; sourceTree = "<group>"; };
+		EB679F291AE699C200EE6864 /* GtfsRealtime.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GtfsRealtime.pb.h; path = ../../GtfsRealtime.pb.h; sourceTree = "<group>"; };
+		EB679F2A1AE699C200EE6864 /* GtfsRealtime.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GtfsRealtime.pb.m; path = ../../GtfsRealtime.pb.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB679EC91AE68CFE00EE6864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013BCB38DD8DDC4C7B2E3264 /* libPods-OVapp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB679EE21AE68CFE00EE6864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				063E930E20600A8BE2771F6C /* libPods-OVappTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C92C9B3102CFA6B1FD3E1B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				126D2914B15C22091DCFB49A /* libPods-OVapp.a */,
+				61AFD758E343635B3D0CD703 /* libPods-OVappTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B2D839C919438F9FE6819EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				148C208D26E3DD1C7EC546BA /* Pods-OVapp.debug.xcconfig */,
+				508C8F14C145E2BE4870DF71 /* Pods-OVapp.release.xcconfig */,
+				33D5BC8D44694CAD4A489453 /* Pods-OVappTests.debug.xcconfig */,
+				BEFE567FD24DF9B3D9817D69 /* Pods-OVappTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB679EC31AE68CFE00EE6864 = {
+			isa = PBXGroup;
+			children = (
+				EB679ECE1AE68CFE00EE6864 /* OVapp */,
+				EB679EE81AE68CFE00EE6864 /* OVappTests */,
+				EB679ECD1AE68CFE00EE6864 /* Products */,
+				9B2D839C919438F9FE6819EA /* Pods */,
+				2C92C9B3102CFA6B1FD3E1B6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EB679ECD1AE68CFE00EE6864 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB679ECC1AE68CFE00EE6864 /* OVapp.app */,
+				EB679EE51AE68CFE00EE6864 /* OVappTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB679ECE1AE68CFE00EE6864 /* OVapp */ = {
+			isa = PBXGroup;
+			children = (
+				EB679ED31AE68CFE00EE6864 /* AppDelegate.h */,
+				EB679F271AE699C200EE6864 /* GtfsRealtimeOVapi.pb.h */,
+				EB679F281AE699C200EE6864 /* GtfsRealtimeOVapi.pb.m */,
+				EB679F291AE699C200EE6864 /* GtfsRealtime.pb.h */,
+				EB679F2A1AE699C200EE6864 /* GtfsRealtime.pb.m */,
+				EB679ED41AE68CFE00EE6864 /* AppDelegate.m */,
+				EB679ED61AE68CFE00EE6864 /* ViewController.h */,
+				EB679ED71AE68CFE00EE6864 /* ViewController.m */,
+				EB679ED91AE68CFE00EE6864 /* Main.storyboard */,
+				EB679EDC1AE68CFE00EE6864 /* Images.xcassets */,
+				EB679EDE1AE68CFE00EE6864 /* LaunchScreen.xib */,
+				EB16DAD41AE6B62C00437CB0 /* vehiclePositions.pb */,
+				EB679ECF1AE68CFE00EE6864 /* Supporting Files */,
+			);
+			path = OVapp;
+			sourceTree = "<group>";
+		};
+		EB679ECF1AE68CFE00EE6864 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB679ED01AE68CFE00EE6864 /* Info.plist */,
+				EB679ED11AE68CFE00EE6864 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB679EE81AE68CFE00EE6864 /* OVappTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB679EEB1AE68CFE00EE6864 /* OVappTests.m */,
+				EB679EE91AE68CFE00EE6864 /* Supporting Files */,
+			);
+			path = OVappTests;
+			sourceTree = "<group>";
+		};
+		EB679EE91AE68CFE00EE6864 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB679EEA1AE68CFE00EE6864 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB679ECB1AE68CFE00EE6864 /* OVapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB679EEF1AE68CFE00EE6864 /* Build configuration list for PBXNativeTarget "OVapp" */;
+			buildPhases = (
+				459450CA2E875A990F938DE1 /* Check Pods Manifest.lock */,
+				EB679EC81AE68CFE00EE6864 /* Sources */,
+				EB679EC91AE68CFE00EE6864 /* Frameworks */,
+				EB679ECA1AE68CFE00EE6864 /* Resources */,
+				A2C0294C7EEFAF85A03986F8 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OVapp;
+			productName = OVapp;
+			productReference = EB679ECC1AE68CFE00EE6864 /* OVapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB679EE41AE68CFE00EE6864 /* OVappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB679EF21AE68CFE00EE6864 /* Build configuration list for PBXNativeTarget "OVappTests" */;
+			buildPhases = (
+				E14DA4D6BA611B8049FAF446 /* Check Pods Manifest.lock */,
+				EB679EE11AE68CFE00EE6864 /* Sources */,
+				EB679EE21AE68CFE00EE6864 /* Frameworks */,
+				EB679EE31AE68CFE00EE6864 /* Resources */,
+				8EF3566FF06EC36EADEA9D10 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB679EE71AE68CFE00EE6864 /* PBXTargetDependency */,
+			);
+			name = OVappTests;
+			productName = OVappTests;
+			productReference = EB679EE51AE68CFE00EE6864 /* OVappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB679EC41AE68CFE00EE6864 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = bjvanlinschoten;
+				TargetAttributes = {
+					EB679ECB1AE68CFE00EE6864 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					EB679EE41AE68CFE00EE6864 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EB679ECB1AE68CFE00EE6864;
+					};
+				};
+			};
+			buildConfigurationList = EB679EC71AE68CFE00EE6864 /* Build configuration list for PBXProject "OVapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB679EC31AE68CFE00EE6864;
+			productRefGroup = EB679ECD1AE68CFE00EE6864 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB679ECB1AE68CFE00EE6864 /* OVapp */,
+				EB679EE41AE68CFE00EE6864 /* OVappTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB679ECA1AE68CFE00EE6864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB679EDB1AE68CFE00EE6864 /* Main.storyboard in Resources */,
+				EB679EE01AE68CFE00EE6864 /* LaunchScreen.xib in Resources */,
+				EB679EDD1AE68CFE00EE6864 /* Images.xcassets in Resources */,
+				EB16DAD51AE6B62C00437CB0 /* vehiclePositions.pb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB679EE31AE68CFE00EE6864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		459450CA2E875A990F938DE1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8EF3566FF06EC36EADEA9D10 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OVappTests/Pods-OVappTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2C0294C7EEFAF85A03986F8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OVapp/Pods-OVapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E14DA4D6BA611B8049FAF446 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB679EC81AE68CFE00EE6864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB679ED81AE68CFE00EE6864 /* ViewController.m in Sources */,
+				EB679ED51AE68CFE00EE6864 /* AppDelegate.m in Sources */,
+				EB679ED21AE68CFE00EE6864 /* main.m in Sources */,
+				EB679F2B1AE699C200EE6864 /* GtfsRealtimeOVapi.pb.m in Sources */,
+				EB679F2C1AE699C200EE6864 /* GtfsRealtime.pb.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB679EE11AE68CFE00EE6864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB679EEC1AE68CFE00EE6864 /* OVappTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB679EE71AE68CFE00EE6864 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB679ECB1AE68CFE00EE6864 /* OVapp */;
+			targetProxy = EB679EE61AE68CFE00EE6864 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB679ED91AE68CFE00EE6864 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB679EDA1AE68CFE00EE6864 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB679EDE1AE68CFE00EE6864 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB679EDF1AE68CFE00EE6864 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB679EED1AE68CFE00EE6864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB679EEE1AE68CFE00EE6864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB679EF01AE68CFE00EE6864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 148C208D26E3DD1C7EC546BA /* Pods-OVapp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OVapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB679EF11AE68CFE00EE6864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 508C8F14C145E2BE4870DF71 /* Pods-OVapp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OVapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB679EF31AE68CFE00EE6864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33D5BC8D44694CAD4A489453 /* Pods-OVappTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OVappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OVapp.app/OVapp";
+			};
+			name = Debug;
+		};
+		EB679EF41AE68CFE00EE6864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEFE567FD24DF9B3D9817D69 /* Pods-OVappTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OVappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OVapp.app/OVapp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB679EC71AE68CFE00EE6864 /* Build configuration list for PBXProject "OVapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB679EED1AE68CFE00EE6864 /* Debug */,
+				EB679EEE1AE68CFE00EE6864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB679EEF1AE68CFE00EE6864 /* Build configuration list for PBXNativeTarget "OVapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB679EF01AE68CFE00EE6864 /* Debug */,
+				EB679EF11AE68CFE00EE6864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB679EF21AE68CFE00EE6864 /* Build configuration list for PBXNativeTarget "OVappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB679EF31AE68CFE00EE6864 /* Debug */,
+				EB679EF41AE68CFE00EE6864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB679EC41AE68CFE00EE6864 /* Project object */;
+}

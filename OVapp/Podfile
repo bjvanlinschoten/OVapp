@@ -1,0 +1,10 @@
+platform :ios, '8.1'
+
+target 'OVapp' do
+	pod 'ProtocolBuffers', '~> 1.9.8'
+end
+
+target 'OVappTests' do
+	pod 'ProtocolBuffers', '~> 1.9.8'
+end
+
